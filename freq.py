@@ -1,3 +1,5 @@
+#Graphing Project - Lucas Zhou - 7/19/2025
+#I wrote code that produced a graph of the frequency difference over time. It is important to keep the frequency difference around a very small range over time so that GPS signals are locked in faster. 
 import pandas as pd #import pd
 import matplotlib.pyplot as plt #imp plt
 df = pd.read_csv('A.csv'); #pandas dataframe for csv file
